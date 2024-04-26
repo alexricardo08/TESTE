@@ -1,0 +1,90 @@
+!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenvolvimento de Software</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #666;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: #444;
+        }
+        section {
+            padding: 20px;
+        }
+        article {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Desenvolvimento de Software</h1>
+    </header>
+    <nav>
+        <a href="#introducao">Introdução</a>
+        <a href="#metodologias">Metodologias</a>
+        <a href="#ferramentas">Ferramentas</a>
+        <a href="#tendencias">Tendências</a>
+    </nav>
+    <section id="introducao">
+        <article>
+            <h2>Introdução</h2>
+            <p>O desenvolvimento de software é o processo de criar programas de computador para realizar tarefas específicas.</p>
+        </article>
+    </section>
+    <section id="metodologias">
+        <article>
+            <h2>Metodologias</h2>
+            <p>Existem várias metodologias para desenvolvimento de software, como Waterfall, Agile, Scrum, entre outras.</p>
+        </article>
+    </section>
+    <section id="ferramentas">
+        <article>
+            <h2>Ferramentas</h2>
+            <p>As ferramentas de desenvolvimento de software incluem IDEs (Ambientes de Desenvolvimento Integrado), editores de código, sistemas de controle de versão, entre outros.</p>
+        </article>
+    </section>
+    <section id="tendencias">
+        <article>
+            <h2>Tendências</h2>
+            <p>Algumas tendências atuais no desenvolvimento de software incluem DevOps, Inteligência Artificial, IoT (Internet das Coisas) e computação em nuvem.</p>
+        </article>
+    </section>
+    <footer>
+        <p>&copy; 2024 Desenvolvimento de Software</p>
+    </footer>
+</body>
+</html>
